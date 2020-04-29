@@ -1,0 +1,150 @@
+@import './font.scss';
+
+.App {
+  text-align: center;
+  display: flex;
+
+}
+.border {
+  border: 1px solid red;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.en_light {
+  font-family: 'RingsideWide-Light';
+  font-size: 20px;
+}
+
+.en_regular {
+  font-family: 'Reckless-Regular';
+  font-size: 20px;
+}
+
+.en_semi-bold {
+  font-family: 'RingsideWide-Semibold';
+  font-size: 20px;
+}
+
+.en_bold {
+  font-family: 'Reckless-Bold';
+  font-size: 20px;
+}
+
+.cn_light {
+  font-family: 'PingFangSC-Light';
+  font-size: 20px;
+}
+
+.cn_regular {
+  font-family: 'PingFangSC-Regular';
+  font-size: 20px;
+}
+
+.cn_semi-bold {
+  font-family: 'PingFangSC-Medium';
+  font-size: 20px;
+}
+
+.cn_bold {
+  font-family: 'PingFangSC-Semibold';
+  font-size: 20px;
+}
+
+.kr_font {
+  font-family: 'Spoqa_Han_Sans_Regular';
+  font-size: 20px;
+}
+
+.lang_light {
+  font-size: 20px;
+  @include fontfamily('Light');
+}
+
+.lang_regular {
+  font-size: 20px;
+  @include fontfamily('Regular');
+}
+
+.lang_semi-bold {
+  font-size: 20px;
+  @include fontfamily('Semi-Bold');
+}
+
+.lang_bold {
+  font-size: 20px;
+  @include fontfamily('Bold');
+}
+
+.light {
+  font-family: 'Light';
+  font-size: 20px;
+}
+
+.regular {
+  font-family: 'Regular';
+  font-size: 20px;
+}
+
+.semi-bold {
+  font-family: 'Semibold';
+  font-size: 20px;
+}
+
+.bold{
+  font-family: 'Bold';
+  font-size: 20px;
+}
+
+.languge_light {
+  font-family: 'Lang-Light';
+  font-size: 20px;
+}
+
+.languge_regular {
+  font-family: 'Lang-Regular';
+  font-size: 20px;
+}
+
+.languge_semi-bold {
+  font-family: 'Lang-Semibold';
+  font-size: 20px;
+}
+
+.languge_bold {
+  font-family: 'Lang-Bold';
+  font-size: 20px;
+}

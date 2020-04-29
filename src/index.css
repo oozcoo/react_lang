@@ -1,3 +1,125 @@
+
+@font-face {
+  font-family: 'RingsideWide-Light';
+  src: url('./res/font/RingsideWide-Light.otf');
+}
+
+@font-face {
+  font-family: 'Reckless-Regular';
+  src: url('./res/font/RecklessTRIAL-Regular.otf');
+}
+
+@font-face {
+  font-family: 'RingsideWide-Semibold';
+  src: url('./res/font/RingsideWide-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Reckless-Bold';
+  src: url('./res/font/RecklessTRIAL-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Spoqa_Han_Sans_Regular';
+  src: url('./res/font/Spoqa_Han_Sans_Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PingFangSC-Light';
+  src: url('./res/font/PingFangSC-Light.otf');
+}
+
+@font-face {
+  font-family: 'PingFangSC-Regular';
+  src: url('./res/font/PingFangSC-Regular.otf');
+}
+
+@font-face {
+  font-family: 'PingFangSC-Medium';
+  src: url('./res/font/PingFangSC-Medium.otf');
+}
+
+@font-face {
+  font-family: 'PingFangSC-Semibold';
+  src: url('./res/font/PingFangSC-Semibold.otf');
+}
+
+
+/* Light */
+@font-face {
+  font-family: 'Lang-Light';
+  src: url('./res/font/Spoqa_Han_Sans_Regular.ttf') format('truetype');
+  unicode-range: U+AC00–D7AF; /* 한국어 Hangul Syllables */
+}
+
+@font-face {
+  font-family: 'Lang-Light';
+  src: url('./res/font/PingFangSC-Light.otf') format('opentype');
+  unicode-range: U+4E00–9FFF; /* 중국어 CJK Unified Ideographs */
+}
+
+@font-face {
+  font-family: 'Lang-Light';
+  src: url('./res/font/RingsideWide-Light.otf') format('opentype');
+   /* unicode-range: U+0020—007F; /* 영어, 숫자 Basic Latin */
+}
+
+/* Regular */
+@font-face {
+  font-family: 'Lang-Regular';
+  src: url('./res/font/Spoqa_Han_Sans_Regular.ttf') format('truetype');
+  unicode-range: U+AC00–D7AF; /* 한국어 Hangul Syllables */
+}
+
+@font-face {
+  font-family: 'Lang-Regular';
+  src: url('./res/font/PingFangSC-Regular.otf') format('opentype');
+  unicode-range: U+4E00–9FFF; /* 중국어 CJK Unified Ideographs */
+}
+
+@font-face {
+  font-family: 'Lang-Regular';
+  src: url('./res/font/RecklessTRIAL-Regular.otf') format('opentype');
+  /* unicode-range: U+0020—007F; /* 영어, 숫자 Basic Latin */
+}
+
+/* Semibold */
+@font-face {
+  font-family: 'Lang-Semibold';
+  src: url('./res/font/RingsideWide-Semibold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Lang-Semibold';
+  src: url('./res/font/PingFangSC-Medium.otf') format('opentype');
+  unicode-range: U+4E00–9FFF; /* 중국어 CJK Unified Ideographs */
+}
+
+@font-face {
+  font-family: 'Lang-Semibold';
+  src: url('./res/font/Spoqa_Han_Sans_Regular.ttf') format('truetype');
+  unicode-range: U+AC00–D7AF; /* 한국어 Hangul Syllables */
+}
+
+/* bold */
+@font-face {
+  font-family: 'Lang-Bold';
+  src: url('./res/font/Spoqa_Han_Sans_Regular.ttf') format('truetype');
+  unicode-range: U+AC00–D7AF; /* 한국어 Hangul Syllables */
+}
+
+@font-face {
+  font-family: 'Lang-Bold';
+  src: url('./res/font/PingFangSC-Semibold.otf') format('opentype');
+  unicode-range: U+4E00–9FFF; /* 중국어 CJK Unified Ideographs */
+}
+
+@font-face {
+  font-family: 'Lang-Bold';
+  src: url('./res/font/RecklessTRIAL-Bold.otf') format('opentype');
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

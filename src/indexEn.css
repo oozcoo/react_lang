@@ -1,0 +1,20 @@
+
+@font-face {
+  font-family: 'Light';
+  src: url('./res/font/RingsideWide-Light.otf');
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url('./res/font/RecklessTRIAL-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Semibold';
+  src: url('./res/font/RingsideWide-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url('./res/font/RecklessTRIAL-Bold.otf');
+}

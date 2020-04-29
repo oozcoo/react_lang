@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { lang } from './env/urlParam';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,3 +16,15 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+(function fonts () {
+  if (lang === 'kr') {
+    require('./indexKr.css')
+  }
+  else if (lang === 'en') {
+    require('./indexEn.css')
+  }
+  else {
+    require('./indexCn.css')
+  }
+})();

@@ -1,0 +1,49 @@
+$Light: 'Light';
+$Regular: 'Regular';
+$Semi-Bold: 'Semi-Bold';
+$Bold: 'Bold';
+
+@mixin fontfamily($font-name) {
+    &:lang(en) {
+      @if $font-name == $Light {
+        font-family: 'RingsideWide-Light';
+      }
+      @if $font-name == $Regular {
+        font-family: 'Reckless-Regular';
+      }
+      @if $font-name == $Semi-Bold {
+        font-family: 'RingsideWide-Semibold';
+      }
+      @if $font-name == $Bold {
+        font-family: 'Reckless-Bold';
+      }
+    }
+    &:lang(cn) {
+      @if $font-name == $Light {
+        font-family: 'PingFangSC-Light';
+      }
+      @if $font-name == $Regular {
+        font-family: 'PingFangSC-Regular';
+      }
+      @if $font-name == $Semi-Bold {
+        font-family: 'PingFangSC-Medium';
+      }
+      @if $font-name == $Bold {
+        font-family: 'PingFangSC-Semibold';
+      }
+    }
+    &:lang(kr) {
+      @if $font-name == $Light {
+        font-family: 'Spoqa_Han_Sans_Regular';
+      }
+      @if $font-name == $Regular {
+        font-family: 'Spoqa_Han_Sans_Regular';
+      }
+      @if $font-name == $Semi-Bold {
+        font-family: 'Spoqa_Han_Sans_Regular';
+      }
+      @if $font-name == $Bold {
+        font-family: 'Spoqa_Han_Sans_Regular';
+      }
+    }
+}
